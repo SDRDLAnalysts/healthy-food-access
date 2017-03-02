@@ -1,0 +1,15 @@
+{
+    "time": "1999e",
+    "datasetname": "fitnessgram",
+    "version": "1",
+    "grain": null,
+    "declare": "metatab-latest",
+    "description": "These research files contain results from the Physical Fitness Test (PFT) program. Each file contains the same information presented in the Reports section of this site and is provided to allow for more complex analyses and customized reporting of the data. The data files, including file layout, entities, and subgroup files, are comma-delimited text files provided in a zip format.",
+    "origin": "cde.ca.gov",
+    "space": "CA",
+    "@value": "Identity",
+    "resources": [],
+    "identifier": "48bb7772-1641-4e71-83bd-13f8ecca5255",
+    "title": "California Physical Fitness Test  Research Data",
+    "name": "cde.ca.gov-fitnessgram-1999e-ca-1"
+}
