@@ -1,16 +1,41 @@
 Declare,metatab-latest
 Title,California Physical Fitness Test  Research Data
 Description,"These research files contain results from the Physical Fitness Test (PFT) program. Each file contains the same information presented in the Reports section of this site and is provided to allow for more complex analyses and customized reporting of the data. The data files, including file layout, entities, and subgroup files, are comma-delimited text files provided in a zip format."
+Identifier,48bb7772-1641-4e71-83bd-13f8ecca5255
+Name,cde.ca.gov-fitnessgram-1999e-ca-3
+Name.Grain,
+Name.Origin,cde.ca.gov
+Name.Dataset,fitnessgram
+Name.Version,3
+Name.Space,CA
+Name.Time,1999e
+Version,1
 
-Section,Identity,,,,,,,,,
-Name,cde.ca.gov-fitnessgram-1999e-ca-1,,,,,,,,,
-Identifier,48bb7772-1641-4e71-83bd-13f8ecca5255,,,,,,,,,
-Datasetname,fitnessgram,,,,,,,,,
-Origin,cde.ca.gov,,,,,,,,,
-Space,CA,,,,,,,,,
-Time,1999e,,,,,,,,,
-Grain,,,,,,,,,,
-Version,1,,,,,,,,,
+Section,Documentation,Title,Description,,,,,,,
+Homepage,http://www.cde.ca.gov/ta/tg/pf/,Physical Fitness Testing (PFT),Home page for the PFT program,,,,,,,
+Downloadpage,http://www.cde.ca.gov/ta/tg/pf/pftresearch.asp,PFT Statewide Research Files,Download page with links to research file archives,,,,,,,
+Webpage,http://www.cde.ca.gov/ta/tg/pf/resources.asp,Additional Resources,"Additional resources for the Physical Fitness Test, including links to the Cooper Institute, San Joaquin County Office of Education, and Human Kinetics.",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles01.zip#PFT+File+Layouts.pdf,File Layout 2001,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles02.zip#PFT+File+Layouts.pdf,File Layout 2002,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles03.zip#PFT+File+Layouts.pdf,File Layout 2003,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles04.zip#PFT+File+Layouts.pdf,File Layout 2004,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles05.zip#PFT+File+Layouts.pdf,File Layout 2005,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles06.zip#PFT+File+Layouts.pdf,File Layout 2006,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles07.zip#PFT+File+Layouts.pdf,File Layout 2007,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles08.zip#PFT+File+Layouts.pdf,File Layout 2008,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles09.zip#PFT+File+Layouts.pdf,File Layout 2009,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles10.zip#PFT+File+Layouts.pdf,File Layout 2010,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles11.zip#PFT+Research+File+Layouts+2011.pdf,File Layout 2011,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles12.zip#PFT+Research+File+Layouts+2012.pdf,File Layout 2012,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles13.zip#PFT+Research+File+Layouts+2013.pdf,File Layout 2013,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles14.zip#PFT+Research+File+Layouts+2014.pdf,File Layout 2014,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles15.zip#PFT+Research+File+Layouts+2015.pdf,File Layout 2015,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles16.zip#PFT+Research+File+Layouts+2016.pdf,File Layout 2016,"Text form data dictionary, including common code values",,,,,,,
+Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles99.zip#PFT+File+Layouts.pdf,File Layout 1999,"Text form data dictionary, including common code values",,,,,,,
+
+Section,Contacts,email,organization,web,tel,,,,,
+Creator,High School and Physical Fitness Assessment Office,pft@cde.ca.gov,California Department of Education,http://www.cde.ca.gov/index.asp,916-445-9449,,,,,
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,,,,,,
 
 Section,Resources,Name,StartLine,Endline,HeaderLines,format,Encoding,Time,Schema,Description
 Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles99.zip#Entities.*,entities99,1,6262,0,csv,latin1,1999,entities_1999e2010,1999 PFT Entities
@@ -45,8 +70,8 @@ Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles11.zip#PhysFit.
 Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles12.zip#.*ResearchFile.*,physfit12,1,2175833,0,tsv,,2012,physfit_2011e,2011-12 Physical Fitness Research
 Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles13.zip#.*ResearchFile.*,physfit13,1,2214024,0,tsv,,2013,physfit_2011e,2012-13 Physical Fitness Research
 Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles14.zip#.*ResearchFile.*,physfit14,1,2233436,0,csv,,2014,physfit_2011e,2013-14 Physical Fitness Research
-Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles15.zip#2014_15_ResearchFile.txt,2014_15_ResearchFile,1,,0,csv,,2015,physfit_2011e,2014-15 Physical Fitness Research
-Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles16.zip#2015_16_ResearchFile.txt,2015_16_ResearchFile,1,,0,csv,,2016,physfit_2011e,2015-16 Physical Fitness Research
+Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles15.zip#2014_15_ResearchFile.txt,physfit15,1,,0,csv,,2015,physfit_2011e,2014-15 Physical Fitness Research
+Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles16.zip#2015_16_ResearchFile.txt,physfit16,1,,0,csv,,2016,physfit_2011e,2015-16 Physical Fitness Research
 Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles99.zip#SubGroups.*,subgroup99,1,152,0,csv,,1999,subgroups_1999e2010,1999 PFT Subgroup
 Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles01.zip#SubGroups.*,subgroup01,1,166,0,csv,,2001,subgroups_1999e2010,2001 PFT Subgroup
 Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles02.zip#SubGroups.*,subgroup02,1,166,0,csv,,2002,subgroups_1999e2010,2002 PFT Subgroup
@@ -62,35 +87,8 @@ Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles11.zip#Subgroup
 Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles12.zip#Subgroups.*,subgroup12,1,845,0,tsv,,2012,subgroups_2011e,2011-12 Physical Fitness Subgroups
 Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles13.zip#Subgroups.*,subgroup13,1,845,0,tsv,,2013,subgroups_2011e,2012-13 Physical Fitness Subgroups
 Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles14.zip#Subgroups.*,subgroup14,1,845,0,csv,,2014,subgroups_2011e,2013-14 Physical Fitness Subgroups
-Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles15.zip#2014_15_Subgroups.txt,2014_15_Subgroups,1,,0,csv,,2015,subgroups_2011e,2014-15 Physical Fitness Subgroups
-Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles16.zip#2015_16_Subgroups.txt,2015_16_Subgroups,1,,0,csv,,2016,subgroups_2011e,2015-16 Physical Fitness Subgroups
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles01.zip#PFT+File+Layouts.pdf,pft_layout_01,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles02.zip#PFT+File+Layouts.pdf,pft_layout_02,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles03.zip#PFT+File+Layouts.pdf,pft_layout_03,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles04.zip#PFT+File+Layouts.pdf,pft_layout_04,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles05.zip#PFT+File+Layouts.pdf,pft_layout_05,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles06.zip#PFT+File+Layouts.pdf,pft_layout_06,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles07.zip#PFT+File+Layouts.pdf,pft_layout_07,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles08.zip#PFT+File+Layouts.pdf,pft_layout_08,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles09.zip#PFT+File+Layouts.pdf,pft_layout_09,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles10.zip#PFT+File+Layouts.pdf,pft_layout_10,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles11.zip#PFT+Research+File+Layouts+2011.pdf,pft_layout_11,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles12.zip#PFT+Research+File+Layouts+2012.pdf,pft_layout_12,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles13.zip#PFT+Research+File+Layouts+2013.pdf,pft_layout_13,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles14.zip#PFT+Research+File+Layouts+2014.pdf,pft_layout_14,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles15.zip#PFT+Research+File+Layouts+2015.pdf,pft_layout_15,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles16.zip#PFT+Research+File+Layouts+2016.pdf,pft_layout_16,,,,,,,,
-Documentation,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles99.zip#PFT+File+Layouts.pdf,pft_layout_99,,,,,,,,
-
-Section,Documentation,Title,Description,,,,,,,
-Homepage,# URL to webpage for the data program,,,,,,,,,
-Documentation,# Url to documentation,,,,,,,,,
-Note,,,,,,,,,,
-
-Section,Contacts,email,,,,,,,,
-Origin,# Domain name of primary source of data.,,,,,,,,,
-Creator,# Creator Name,,,,,,,,,
-Wrangler,# Wrangler Name,,,,,,,,,
+Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles15.zip#2014_15_Subgroups.txt,subgroup15,1,,0,csv,,2015,subgroups_2011e,2014-15 Physical Fitness Subgroups
+Datafile,http://www3.cde.ca.gov/pftresearchfiles/pftresearchfiles16.zip#2015_16_Subgroups.txt,subgroup16,1,,0,csv,,2016,subgroups_2011e,2015-16 Physical Fitness Subgroups
 
 Section,Schema,DataType,ValueType,Transform,Description,,,,,
 Table,entities_2011e,,,,,,,,,
